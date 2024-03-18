@@ -72,7 +72,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("aso jai❤️", threadID);
    };
    
-   if ((event.body.toLowerCase() == "magi,khanki,heda,bolod,xudi") || (event.body.toLowerCase() == "btvv nha mn")) {
+   if ((event.body.toLowerCase() == "magi") || (event.body.toLowerCase() == "btvv nha mn")) {
      return api.sendMessage("গালি দিলে মেরে পেলবো🤬 ", threadID);
    };
    
@@ -81,7 +81,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
    
    if ((event.body.toLowerCase() == "tur mare xudi") || (event.body.toLowerCase() == "")) {
-     return api.sendMessage("tumer mare ASIF XUDE tnx❤️", threadID);
+     return api.sendMessage("tumer re tnx❤️", threadID);
    };
    
    if ((event.body.toLowerCase() == "oii apu") || (event.body.toLowerCase() == "btvv nha mn")) {
@@ -97,7 +97,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
    
    if ((event.body.toLowerCase() == "pagul naki") || (event.body.toLowerCase() == "btvv nha mn")) {
-     return api.sendMessage("tur pagul sor xudur put ❤️", threadID);
+     return api.sendMessage("tur pagul sor xudir put ❤️", threadID);
    };
    
    if ((event.body.toLowerCase() == "kiss de") || (event.body.toLowerCase() == "btvv nha mn")) {
